@@ -9,6 +9,12 @@ Gmailr.debug = true; // Turn verbose debugging messages on
 Gmailr.init(function(G) {
     G.insertCss(getData('css_path'));
     G.insertTop($("<div id='projects'><h3>Projects</h3></div>"));
+    var labels = $("a[href*=label]").clone();
+    labels.each(function(i, el) {
+      G.insertSidebar(el);
+      G.insertSidebar('<br>');
+    })
+
     var status = function(msg) {
         G.$('#gmailr #status').html(msg);
     };
