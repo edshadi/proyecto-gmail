@@ -2,13 +2,18 @@ div[role=main] {
   width: 70%;
 }
 
-.projects {
-  width: 30%;
+#projects {
+  width: 25%;
   background: orange;
   position: absolute;
   right: 0;
-  top: 0;
+  top: 20.5%;
   height: 100%;
+  z-index: 1;
+}
+
+#projects h3 {
+  margin: 0;
 }
 
 #gmailr {
