@@ -16,5 +16,5 @@
     "http://*/"
   ],
   "manifest_version" : 2,
-  "web_accessible_resources" : [ "lib/gmailr/bootstrap.js", "lib/gmailr/gmailr.js", "lib/gmailr/init.js", "lib/jquery.1.4.2.js", "lib/jquery.ba-bbq.js", "lib/lab.js", "main.css", "main.js"]
+  "web_accessible_resources" : [ "lib/handlbars.runtime.js", "templates.js", "lib/underscore.js", "lib/backbone.js", "views.js","lib/gmailr/bootstrap.js", "lib/gmailr/gmailr.js", "lib/gmailr/init.js", "lib/jquery.1.10.1.min.js", "lib/jquery.ba-bbq.min.js", "lib/lab.js", "main.css", "main.js", "lib/bootstrap.min.js", "lib/css/bootstrap.min.css"]
 }

@@ -2,12 +2,16 @@ div[role=main] {
   width: 70%;
 }
 
+li {
+  list-style: none;
+}
+
 #projects {
   width: 25%;
-  background: orange;
+  background: white;
   position: absolute;
   right: 0;
-  top: 20.5%;
+  top: 17%;
   height: 100%;
   z-index: 1;
 }
@@ -16,12 +20,6 @@ div[role=main] {
   margin: 0;
 }
 
-#gmailr {
-    color: #333;
-    font-family: Arial;
-    background: #DDE5FF;
-    padding: 6px 7px 5px 9px;
-    border-bottom: 1px solid #C9D7F1;
-    margin-bottom: 1px;
-    position: relative;
+.project {
+
 }
